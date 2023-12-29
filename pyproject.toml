@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "hw13"
+version = "0.1.0"
+description = "FastAPI_mail"
+authors = ["BGU"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.104.1"
+uvicorn = {extras = ["standard"], version = "^0.24.0.post1"}
+sqlalchemy = "^2.0.23"
+psycopg2 = "^2.9.9"
+alembic = "^1.13.0"
+faker = "^21.0.0"
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+bcrypt = "4.0.1"
+python-dotenv = "^1.0.0"
+fastapi-mail = "^1.4.1"
+pydantic-settings = "^2.1.0"
+slowapi = "^0.1.8"
+limits = "^3.7.0"
+cloudinary = "^1.37.0"
+pydantic = "^2.5.3"
+python-multipart = "^0.0.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
